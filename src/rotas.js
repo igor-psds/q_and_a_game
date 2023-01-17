@@ -11,6 +11,8 @@ import Incorrect2 from './pages/questions/incorrect/question2/incorrect2.js';
 import Question3 from './pages/questions/question3/question3.js';
 import Answer3 from './pages/questions/correct/question3/answer3.js';
 import Incorrect3 from './pages/questions/incorrect/question3/incorrect3.js';
+import About from './pages/about/about.js';
+import Contact from './pages/contact/contact.js';
 
 function Rotas() {
     return (
@@ -26,6 +28,8 @@ function Rotas() {
                 <Route path='/question-3' element={<Question3 />}/>
                 <Route path='/question-3/correct-answer' element={<Answer3 />}/>
                 <Route path='/question-3/incorrect-answer' element={<Incorrect3 />}/>
+                <Route path='/about' element={<About />}/>
+                <Route path='/contact' element={<Contact />}/>
             </Routes>
         </BrowserRouter>
     )
