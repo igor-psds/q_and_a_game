@@ -9,7 +9,7 @@ function About(){
             <div className="content-container">
                 <div className="about-container">
                     <div className="about-content">
-                        <span className="about-text">I made this Q&A game to test my skills with React.</span>
+                        <span className="about-text">I made this game to test my skills with React.</span>
                     </div>
                 </div>
             </div>
