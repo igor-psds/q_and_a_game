@@ -10,26 +10,23 @@ function Question3(){
             <div className="content-container">
                 <div className="question-container">
                     <span className="question">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat.
+                        Why was Sirius sent to Azkaban?
                     </span>
                 </div>
                 <div className="options-container">
                     <div className="options-content">
                         <ul className="options">
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-3/incorrect-answer'}>
-                                <li className="choose-option">A) Option 1</li>
+                                <li className="choose-option">A) He was accused of robbing Gringotts bank.</li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-3/incorrect-answer'}>
-                                <li className="choose-option">B) Option 2</li>
+                                <li className="choose-option">B) He was accused of killing Peter Pettigrew.</li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-3/incorrect-answer'}>
-                                <li className="choose-option">C) Option 3</li>
+                                <li className="choose-option">C) He was accused of trying to kill Harry.</li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-3/correct-answer'}>
-                                <li className="choose-option">D) Option 4</li>
+                                <li className="choose-option">D) He was accused of killing Peter Pettigrew and 12 muggles.</li>
                             </Link>
                         </ul>
                     </div>

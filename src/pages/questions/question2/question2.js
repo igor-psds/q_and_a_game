@@ -10,26 +10,23 @@ function Question2(){
             <div className="content-container">
                 <div className="question-container">
                     <span className="question">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat.
+                        Who created the marauders map?
                     </span>
                 </div>
                 <div className="options-container">
                     <div className="options-content">
                         <ul className="options">
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-2/incorrect-answer'}>
-                                <li className="choose-option">A) Option 1</li>
+                                <li className="choose-option">A) James Potter, Lily Potter, Severus Snape, Albus Dumbledore.</li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-2/correct-answer'}>
-                                <li className="choose-option">B) Option 2</li>
+                                <li className="choose-option">B) James Potter, Sirius Black, Remus Lupin, Peter Pettigrew.</li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-2/incorrect-answer'}>
-                                <li className="choose-option">C) Option 3</li>
+                                <li className="choose-option">C) Lily Potter, Moaning Myrtle, Regulus Black, Peter Pettigrew. </li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-2/incorrect-answer'}>
-                                <li className="choose-option">D) Option 4</li>
+                                <li className="choose-option">D) James Potter, Severus Snape, Remus Lupin, Albus Dumbledore.</li>
                             </Link>
                         </ul>
                     </div>

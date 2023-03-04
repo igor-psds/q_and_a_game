@@ -12,6 +12,7 @@
     margin: 5%;
     font-family: 'Press Start 2P', cursive;
     color: whitesmoke;
+    font-size: larger;
     text-shadow: black 2px 2px;
     cursor: default;
 }
@@ -32,7 +33,7 @@
     background-color: black;
     flex-direction: column;
     justify-content: center;
-    border: 3px rgb(65, 50, 148) solid;
+    border: 3px rgb(64, 105, 228) solid;
 }
 
 .options {

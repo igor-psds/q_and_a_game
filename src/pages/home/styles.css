@@ -3,7 +3,7 @@
 .content-container {
     height: 100vh;
     background-color: #333;
-    background-image: url('../../images/space_theme_background_4.jpg');
+    background-image: url('../../images/harry-potter/harry_potter_wallpaper.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +24,7 @@
     background-color: black;
     flex-direction: column;
     justify-content: center;
-    border: 3px rgb(65, 50, 148) solid;
+    border: 3px rgb(64, 105, 228) solid;
 }
 
 .menu-title {
@@ -53,4 +53,16 @@
 .start:hover {
     cursor: pointer;
     color: blue;
+}
+
+.title {
+    text-align: center;
+    line-height: 130%;
+}
+
+.footer-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }

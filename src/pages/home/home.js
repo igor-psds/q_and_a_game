@@ -11,7 +11,9 @@ function Home(){
                 <div className='menu-container'>
                     <div className='menu-content'>
                         <div className='menu-title'>
-                            <span className='title'>A simple Q&A game about space.</span>
+                            <span className='title'>
+                                A simple Q&A game about <br/> Harry Potter.
+                            </span>
                         </div>
                         <div className='menu-start'>
                             <Link  style={{textDecoration: 'none', cursor: 'default'}} to={'/question-1'}>
@@ -21,8 +23,9 @@ function Home(){
                     </div>
                 </div>
             </div>
-            <footer>
-                <span>Desenvolvido por: Igor Silva.</span>
+            <footer className='footer-home'>
+                <span>All rights reserved ©</span>
+                <span>Developed by: Igor Silva.</span>
             </footer>
         </>
     )

@@ -11,26 +11,23 @@ function Question1(){
             <div className="content-container">
                 <div className="question-container">
                     <span className="question">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing 
-                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-                        aliquip ex ea commodo consequat.
+                    How many horcruxes did Voldemort make?
                     </span>
                 </div>
                 <div className="options-container">
                     <div className="options-content">
                         <ul className="options">
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-1/correct-answer'}>
-                                <li className="choose-option">A) Option 1</li>
+                                <li className="choose-option">A) 7</li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-1/incorrect-answer'}>
-                                <li className="choose-option">B) Option 2</li>
+                                <li className="choose-option">B) 8</li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-1/incorrect-answer'}>
-                                <li className="choose-option">C) Option 3</li>
+                                <li className="choose-option">C) 5</li>
                             </Link>
                             <Link style={{textDecoration: 'none', cursor: 'default'}} to={'/question-1/incorrect-answer'}>
-                                <li className="choose-option">D) Option 4</li>
+                                <li className="choose-option">D) 6</li>
                             </Link>
                         </ul>
                     </div>

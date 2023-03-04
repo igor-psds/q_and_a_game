@@ -8,7 +8,8 @@ function Footer(){
             <Link style={{textDecoration: 'none'}} to={'/question-1'}>
                 <span className="restart">Restart</span>
             </Link>
-            <span>Desenvolvido por: Igor Silva.</span>
+            <span>All rights reserved ©</span>
+            <span>Developed by: Igor Silva.</span>
         </footer>
     )
 }
